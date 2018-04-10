@@ -1,0 +1,47 @@
+ * {
+	box-sizing: border-box;
+}
+html {
+
+}
+body {
+background: repeating-linear-gradient( 45deg,#FCDFBE 0px,  #FCDFBE 2px, #fff 2px, #fff 20px);	
+		
+}
+.border {
+	width: 100%;	
+	height: 200px;
+	border: 2px solid #004331;
+	border-radius: 10px;	
+	background: linear-gradient( rgba(92,165,149,.5), rgba(97,204,180,.5));
+	padding: 10px;
+}
+.main {
+	width: 100%;
+	height: 100%;
+	border: 1px solid #000;
+	border-radius: 10px;
+	overflow: hidden;
+	background: #EDECDE;	
+}
+h1 {
+	background: linear-gradient(#FFD800, #D59800);
+	margin: 0;
+	padding: 10px;
+	position: relative;
+}
+p {
+	padding-left: 10px;
+
+}
+h1:before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: #D59800;
+	position: absolute;
+	transform: rotate(45deg);
+	left: 20px;
+	bottom: -10px;
+}
